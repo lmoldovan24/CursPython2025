@@ -1,0 +1,28 @@
+# --- Fișiere de sistem Mac (inutile pentru alții) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Fișiere cu parole și secrete (FOARTE IMPORTANT) ---
+.env
+config.js
+secrets.txt
+
+# --- Fișiere generate de editor (VS Code, etc.) ---
+.vscode/
+.idea/
+*.swp
+
+# --- Fișiere temporare și log-uri ---
+*.log
+tmp/
+temp/
+
+# --- Dacă lucrezi cu Node.js / Javascript ---
+node_modules/
+npm-debug.log
+
+# --- Dacă lucrezi cu Python ---
+__pycache__/
+*.py[cod]
+venv/
